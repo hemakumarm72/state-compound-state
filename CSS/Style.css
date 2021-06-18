@@ -1,6 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+::root {
+  --Very-dark-blue: hsl(233, 47%, 7%); /*main backgrouns*/
+  --Dark-desaturated-blue: hsl(244, 38%, 16%); /*card background*/
+  --Soft-violet-: hsl(277, 64%, 61%); /*accent*/
+
+  /* --primary--- */
+
+  --White-c: hsl(0, 0%, 100%); /*(main heading, stats) */
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75); /* main pragraph*/
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6); /*stat headings*/
+}
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 15px;
+  height: 100%;
+  height: auto !important;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: lawngreen;
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
