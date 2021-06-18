@@ -33,6 +33,7 @@ The designs were created to the following widths:
 }
 
 body {
+  padding: 5%;
   font-size: 15px;
   height: 100%;
   height: auto !important;
@@ -54,4 +55,8 @@ span {
 
 .h1-color {
   color: var(--White-c);
+}
+
+.companies {
+  text-transform: uppercase;
 }
