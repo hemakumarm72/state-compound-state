@@ -14,7 +14,12 @@ The designs were created to the following widths:
   /* --primary--- */
 
   --White-c: hsl(0, 0%, 100%); /*(main heading, stats) */
-  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75); /* main pragraph*/
+  --Slightly-transparent-white-mainpara: hsla(
+    0,
+    0%,
+    100%,
+    0.75
+  ); /* main pragraph*/
   --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6); /*stat headings*/
 }
 
@@ -22,18 +27,19 @@ The designs were created to the following widths:
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-  padding: 5%;
+  padding: 87px 81px;
+  position: relative;
   font-size: 15px;
   height: 100%;
   height: auto !important;
@@ -49,14 +55,36 @@ span {
 .container {
   background-color: var(--Dark-desaturated-blue);
   width: 95%;
+  height: 36vw;
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .h1-color {
   color: var(--White-c);
 }
 
+.content-para {
+  color: var(--Slightly-transparent-white-mainpara);
+}
+.companies-para {
+  color: var(--Slightly-transparent-white);
+}
 .companies {
   text-transform: uppercase;
+}
+.sprilt {
+  padding: 5.69vw;
+  border: 3px green solid;
+  width: 50%;
+}
+
+.view-ranking {
+  display: flex;
+}
+
+.content {
+  border: 3px yellowgreen solid;
 }
