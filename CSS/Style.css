@@ -22,14 +22,14 @@ The designs were created to the following widths:
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -38,13 +38,20 @@ body {
   height: auto !important;
   margin: 0 auto;
   background-color: var(--Very-dark-blue);
-  /* font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; */
+  font-family: "Inter", sans-serif;
+  /* font-family: "Lexend Deca", sans-serif; */
 }
 
+span {
+  color: var(--Soft-violet-);
+}
 .container {
-  background-color: lawngreen;
+  background-color: var(--Dark-desaturated-blue);
   width: 95%;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.h1-color {
+  color: var(--White-c);
 }
