@@ -91,7 +91,7 @@ span {
 }
 .sprilt {
   padding: 5.69vw;
-  border: 3px green solid;
+
   width: 50%;
 }
 
@@ -99,13 +99,9 @@ span {
   display: flex;
 }
 
-.content {
-  border: 3px yellowgreen solid;
-}
-
 .ranking-size {
   font-size: 1vw;
-  border: 3px red solid;
+
   padding-right: 5vw;
 }
 
