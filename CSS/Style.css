@@ -69,17 +69,16 @@ span {
 
 .content-para {
   font-family: "Inter", sans-serif;
-  padding-bottom: 6vh;
+  padding-bottom: 6vw;
   font-size: 1.4vw;
   line-height: 2vw;
   color: var(--Slightly-transparent-white-mainpara);
 }
 
 .content-h1 {
-  padding-bottom: 5vh;
+  padding-bottom: 2vw;
   font-family: "Lexend Deca", sans-serif;
-
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 .companies-para {
   font-weight: 400;
