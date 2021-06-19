@@ -38,7 +38,7 @@ The designs were created to the following widths:
 }
 
 body {
-  padding: 87px 81px;
+  padding: 11.5vh 9vw;
   position: relative;
   font-size: 15px;
   height: 100%;
@@ -53,6 +53,7 @@ span {
   color: var(--Soft-violet-);
 }
 .container {
+  border: 3px red solid;
   background-color: var(--Dark-desaturated-blue);
   width: 95%;
   height: 36vw;
@@ -89,6 +90,7 @@ span {
   font-family: "Inter", sans-serif;
 }
 .sprilt {
+  border: 3px green solid;
   padding: 5.69vw;
 
   width: 50%;
@@ -109,4 +111,12 @@ span {
 }
 
 .imagecontainer {
+  border: 3px yellowgreen solid;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-device-width: 481px) and (max-device-width: 812px) {
+  .container {
+  }
 }
