@@ -118,7 +118,10 @@ span {
   height: 100%;
 }
 
-@media (min-device-width: 481px) and (max-device-width: 812px) {
+@media (max-width: 640px) {
+  body {
+    padding: 3.666666666666667vh 1.333333333333333vw;
+  }
   .container {
   }
 }
