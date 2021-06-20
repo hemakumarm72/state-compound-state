@@ -185,14 +185,14 @@ body {
   }
   .companies {
     text-align: center;
-    padding: 1vw;
+    padding: 4.8vw;
   }
 
   .count {
-    font-size: 4.4vw;
+    font-size: 5vw;
   }
 
   .companies-para {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
