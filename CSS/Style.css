@@ -90,7 +90,7 @@ span {
 }
 .sprilt {
   padding: 5.5vw;
-
+  border: 3px yellowgreen solid;
   width: 50%;
 }
 
@@ -108,14 +108,18 @@ span {
   padding-bottom: 1vh;
 }
 
-.image {
+.imagecontainer {
   width: 50%;
   height: 100%;
 }
 
-.imagecontainer {
+.image {
   width: 100%;
   height: 100%;
+}
+
+.content {
+  border: 3px red solid;
 }
 
 @media (max-width: 640px) {
@@ -123,5 +127,40 @@ span {
     padding: 3.666666666666667vh 1.333333333333333vw;
   }
   .container {
+    height: 90vh;
+
+    flex-flow: wrap-reverse;
+    justify-content: flex-start;
+  }
+  .imagecontainer {
+    width: 100%;
+    height: 30vh;
+    max-width: 99%;
+  }
+  .image {
+    height: 100%;
+  }
+  .sprilt {
+    height: 52vh;
+    width: 100%;
+  }
+
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .view-ranking {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .companies {
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vw;
+    border: 3px green solid;
   }
 }
