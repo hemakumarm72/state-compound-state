@@ -91,7 +91,7 @@ body {
 }
 .sprilt {
   padding: 5vw;
-  border: 3px yellowgreen solid;
+
   width: 50%;
 }
 
@@ -122,8 +122,7 @@ body {
 }
 
 .content {
-  height: 95%;
-  border: 3px red solid;
+  height: 100%;
 }
 
 @media (max-width: 640px) {
@@ -187,7 +186,6 @@ body {
   .companies {
     text-align: center;
     padding: 1vw;
-    border: 3px green solid;
   }
 
   .count {
